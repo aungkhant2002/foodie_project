@@ -16,3 +16,18 @@ $primary: green;
   height: 65px;
   fill: var(--bs-primary);
 }
+
+.header {
+    background: rgba(255, 255, 255, 0.1); /* Transparent white */
+    backdrop-filter: blur(10px); /* Blur the background */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Optional soft border */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    z-index: 1030; /* Ensure it's above other content */
+}
+
+@media screen and (max-width: 768px) {
+    #home {
+        margin-top: 100px;
+    }
+} 
